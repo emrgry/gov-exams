@@ -1,3 +1,6 @@
 [submodule "lib/core"]
 	path = lib/core
 	url = https://github.com/emrgry/flutter-core.git
+[submodule "lib/widgets"]
+	path = lib/widgets
+	url = https://github.com/emrgry/flutter-widgets.git
