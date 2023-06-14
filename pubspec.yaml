@@ -39,6 +39,9 @@ dependencies:
   #fundamental
   kartal: ^2.8.0
 
+  #state management
+  flutter_riverpod: ^2.3.6
+
   #backend
   cloud_firestore: ^4.8.1
   firebase_core: ^2.14.0
