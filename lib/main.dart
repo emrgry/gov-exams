@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:gov_exams/core/init/index.dart';
 import 'package:gov_exams/view/home/home_screen.dart';
 
-void main() {
+Future<void> main() async {
+  await ApplicationStart.init();
+
   runApp(const ProviderScope(child: MyApp()));
 }
 
